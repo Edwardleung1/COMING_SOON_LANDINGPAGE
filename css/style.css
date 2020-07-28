@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
+html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #fff;
   background: #333;
-  overflow: hidden; /* Can't stroll */
+  overflow: hidden;
 }
 
 /* Parent class for position */
@@ -21,3 +21,21 @@ body {
 }
 
 /* Landing inner class for overlay */
+.landing-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Opacity with transparent */
+  text-align: center;
+  padding-top: 50px;
+}
+
+.landing h1 {
+  font-size: 50px;
+}
+
+.landing p {
+  font-size: 20px;
+}
