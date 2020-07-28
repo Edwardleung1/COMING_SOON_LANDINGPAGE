@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: #333;
+  overflow: hidden; /* Can't stroll */
+}
+
+/* Parent class for position */
+.landing {
+  position: relative;
+  background-image: url("https://preview.ibb.co/c7Drsn/showcase.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Landing inner class for overlay */
