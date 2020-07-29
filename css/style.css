@@ -88,3 +88,22 @@ body {
     padding: 10px;
   }
 }
+
+@media (max-height: 600px) {
+  .landing img {
+    width: 20%;
+  }
+  p {
+    display: none;
+  }
+}
+
+@media (max-height: 400px) {
+  .landing img {
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    display: none;
+  }
+}
