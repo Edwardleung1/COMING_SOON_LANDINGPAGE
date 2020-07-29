@@ -57,6 +57,11 @@ body {
   background: #000;
 }
 
+/* Select the first div */
+.countdown div:first-child {
+  background: #17a2b8;
+}
+
 .countdown span {
   display: block; /* Knock it to separate lines */
   font-size: 25px;
